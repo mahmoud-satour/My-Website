@@ -1,0 +1,369 @@
+
+
+:root{
+    --main-color:#766A69;
+    --sub-color:#9B908E;
+    --gray:#E5E5E5;
+}
+
+* {
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    font-style: italic;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* start header section style */
+
+
+
+nav {
+    background-color: var(--sub-color);
+}
+
+nav .container .navbar-brand {
+    color: var(--gray);
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--gray);
+    font-size: 17px;
+    font-weight: 500;
+    padding: 5px 15px;
+    border-radius: 50px;
+    margin: 0 5px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: var(--main-color);
+    color: var(--gray);
+}
+
+/* end header section style */
+
+/* start home section style */
+
+.home {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    background-color: var(--sub-color);
+}
+
+.home .jumbotron {
+    background: transparent;
+    margin-top: 150px;
+}
+
+.home .jumbotron h1 {
+    color: var(--gray);
+}
+
+.home .jumbotron h1 span {
+    color: #fff;
+}
+
+.home .jumbotron button {
+    color: #fff;
+    background: var(--main-color);
+    border-radius: 50px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+
+.home .jumbotron button:hover {
+    letter-spacing: 2px;
+    transition: all .3s linear ;
+    background-color: #353131;
+}
+
+.icons a {
+    color: var(--gray);
+    font-size: 30px;
+    margin: 10px 10px;
+    text-decoration: none;
+}
+
+.icons a:hover {
+    color: var(--main-color);
+}
+
+.image {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    
+}
+
+.image img {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 150px;
+    background-color: var(--sub-color);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* end home section style */
+
+/* start about section style */
+
+.about {
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+}
+
+.about h1 {
+    color: var(--main-color);
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.about .row {
+    margin: 50px 0;
+}
+
+.about .row .image1 {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.about .row .image1 img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.about .row h2 {
+    color: var(--sub-color);
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.about .row p {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.about .row button {
+    color: #fff;
+    background: var(--main-color);
+    border-radius: 50px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+
+.about .row button:hover {
+    letter-spacing: 2px;
+    transition: all .3s linear ;
+    background-color: #353131;
+}
+
+/* end about section style home */
+
+/* start skills section style */
+
+
+.skills {
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    background: var(--gray);
+}
+
+.skills h1 {
+    color: var(--main-color);
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 80px 0px;
+}
+
+.skills .row {
+    margin-bottom: 50px;
+}
+
+.skills .row img {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.skills .row .prog {
+    margin: 20px 0;
+} 
+
+/* end skills section style */
+
+/* start section work style */
+
+.work {
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    background-color: var(--main-color);
+}
+
+.work h1 {
+    color: var(--main-color);
+    font-size: 40px;
+    font-weight: bolder;
+    color: var(--gray);
+    margin: 50px 0;
+}
+
+.work .row .box {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 1rem #333;
+    position: relative;
+    overflow: hidden;
+}
+
+.work .row .col-lg-4 {
+    margin-bottom: 20px;
+}
+
+.work .row .box img {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 100%;
+    z-index: 20;
+}
+
+.work .row .box a {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50% ,0%);
+    z-index: 1;
+    color: #fff;
+    background: var(--main-color);
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.work .row .box:hover a {
+    top: 40%;
+    transform: translate(-50% ,50%);
+}
+
+.work .row .box a:hover {
+    transition: all .3s linear ;
+    background-color: #353131;
+}
+
+/* end section work style */
+
+/* start contact section style */
+
+.contact {
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+}
+
+.contact h1 {
+    color: var(--main-color);
+    font-size: 40px;
+    font-weight: bolder;
+    color: var(--main-color);
+    margin: 50px 0;
+}
+
+.contact .info {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    height: auto;
+    margin: 20px 0px;
+}
+
+
+
+.contact .info span i {
+    font-size: 25px;
+    margin-right: 20px;
+    color: var(--sub-color);
+}
+
+.contact .info span:hover i {
+    transform:rotate(360deg);
+}
+
+.contact form button {
+    color: #fff;
+    background: var(--main-color);
+    border-radius: 50px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+
+.contact form button:hover {
+    transition: all .3s linear ;
+    background-color: #353131;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+
+
+/* end contact section style */
+
+/* start footer section style */
+
+footer {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    background: var(--main-color);
+}
+
+footer  a {
+    color: var(--gray);
+    font-size: 30px;
+    margin: 20px 10px;
+    text-decoration: none!important;
+} 
+
+footer a:hover {
+    color: var(--sub-color);
+    transform: rotate(360deg);
+}
+
+
+footer .end {
+    color: #fff;
+    padding: 10px 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+footer .end span {
+    color: var(--sub-color);
+    
+}
+/* end footer section style */
+
